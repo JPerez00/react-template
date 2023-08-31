@@ -6,40 +6,56 @@ This is a very simple React template with TypeScript & Tailwind.CSS installed, j
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Steps followed:
+## Steps followed during the setup:
 
 Created A React App project with TypeScript:
 
 ```bash
-npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
+npx create-react-app my-app --template typescript
 ```
-
-### `npx create-react-app my-app --template typescript`
 
 Or
 
-### `yarn create react-app my-app --template typescript`
+```bash
+yarn create react-app my-app --template typescript
+```
 
 Installed tailwindcss via npm, and then ran the init command to generate your tailwind.config.js file:
 
-### `npm install -D tailwindcss`
-### `npx tailwindcss init`
+
+```bash
+npm install -D tailwindcss
+```
+
+```bash
+npx tailwindcss init
+```
 
 Added the paths to all of your template files in your tailwind.config.js file.
 
-### `content: ["./src/**/*.{js,jsx,ts,tsx}",],`
+```bash
+content: ["./src/**/*.{js,jsx,ts,tsx}",],
+```
 
 Added the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
 
-### `@tailwind base;`
-### `@tailwind components;`
-### `@tailwind utilities;`
+```bash
+@tailwind base;
+```
+```bash
+@tailwind components;
+```
+```bash
+@tailwind utilities;
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -47,12 +63,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+```bash
+npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```bash
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -62,7 +82,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```bash
+npm run eject
+```
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
