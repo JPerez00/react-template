@@ -2,11 +2,17 @@
 
 # React App Template
 
+This is a very simple React template with TypeScript & Tailwind.CSS installed, just to simplify the process of creating new apps and saving time instead of manually typing all the steps listed below.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Steps followed:
 
 Created A React App project with TypeScript:
+
+```bash
+npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
+```
 
 ### `npx create-react-app my-app --template typescript`
 
