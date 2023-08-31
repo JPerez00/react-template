@@ -1,6 +1,33 @@
-# Getting Started with Create React App
+![Site Image](/public/landing-page.png)
+
+# React App Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Steps followed:
+
+Created A React App project with TypeScript:
+
+### `npx create-react-app my-app --template typescript`
+
+Or
+
+### `yarn create react-app my-app --template typescript`
+
+Installed tailwindcss via npm, and then ran the init command to generate your tailwind.config.js file:
+
+### `npm install -D tailwindcss`
+### `npx tailwindcss init`
+
+Added the paths to all of your template files in your tailwind.config.js file.
+
+### `content: ["./src/**/*.{js,jsx,ts,tsx}",],`
+
+Added the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+
+### `@tailwind base;`
+### `@tailwind components;`
+### `@tailwind utilities;`
 
 ## Available Scripts
 
