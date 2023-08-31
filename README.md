@@ -41,11 +41,7 @@ Added the @tailwind directives for each of Tailwind’s layers to your ./src/ind
 
 ```bash
 @tailwind base;
-```
-```bash
 @tailwind components;
-```
-```bash
 @tailwind utilities;
 ```
 
